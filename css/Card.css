@@ -1,0 +1,48 @@
+.fon{
+    background-image: url('https://images.wallpapersden.com/image/download/cool-red-mountains-4k_bG1mamyUmZqaraWkpJRmbmdlrWZlbWU.jpg'); 
+    background-position: 0 0; 
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FFFF{
+    background-color: #423E3E;
+}
+.kartochka{
+    width: 1000px;
+    height: 500px;
+    background-color: #423E3E;
+}
+.kreditnakarna1{
+    display: flex;
+}
+.kreditnakarna1one{
+    display: flex;
+    width: 500px;
+}
+.kreditnakarna1two{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+}
+.nomerkartky{
+    display: flex;
+    justify-content: center;
+}
+.kreditnakarna3{
+    display: flex;
+    justify-content: center;
+}
+.buttonkarta{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.gradient{
+    background: linear-gradient(45deg, #000000, #B83944, #EA4857, #E1730E, #FC0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

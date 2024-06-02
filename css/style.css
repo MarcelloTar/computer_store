@@ -1,0 +1,74 @@
+
+.section1{
+    
+    background-image: url('../photo/wallpapersden.com_cool-red-mountains-4k_1920x1080.jpg'); 
+    background-position: 0 0; 
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    height: 99.5vh;
+    display: flex;
+    /* width: 1903px; */
+}
+.Logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    width: 951px;
+}
+.slaydy{
+    height: 1050px;
+}
+.ends{
+    height: 200px;
+    background-color: #423E3E;
+    display: flex;
+}
+.end{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+
+}
+
+.FFFF{
+    background-color: #423E3E;
+}
+.gradient{
+    background: linear-gradient(45deg, #000000, #B83944, #EA4857, #E1730E, #FC0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbarzac{
+    width: 100vw;
+    top: 0px;
+    position: fixed;
+    z-index: 20;
+}
+.ends-2{
+display: flex;
+justify-content: space-around;
+color: white;
+}
+.storona{
+    width: 951px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.storona2{
+    width: 951px;
+}
+.logo2{
+width: 951px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img{
+    border-radius: 100%;
+    border: 5px solid #B83944;
+}

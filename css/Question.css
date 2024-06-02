@@ -1,0 +1,29 @@
+.hon{
+    background-image: url('https://images.wallpapersden.com/image/download/cool-red-mountains-4k_bG1mamyUmZqaraWkpJRmbmdlrWZlbWU.jpg'); 
+    background-position: 0 0; 
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    height: 95.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FFFF{
+    background-color: #423E3E;
+}
+.divzapit{
+    width: 1000px;
+    height: 500px;
+    background-color: #423E3E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    border-radius: 100px;
+}
+.gradient{
+    background: linear-gradient(45deg, #000000, #B83944, #EA4857, #E1730E, #FC0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,9 @@
+.FFFF{
+    background-color: #423E3E;
+}
+.top{
+    display: flex;
+}
+.button{
+    font-size: 20px;
+}

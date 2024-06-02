@@ -1,0 +1,70 @@
+/* .gradient{
+    background: linear-gradient(45deg, #000000, #B83944, #EA4857, #E1730E, #FC0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.FFFF{
+    background-color: #423E3E;
+}
+.top{
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+.button{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.fonimg{
+    background-color: #535353;
+    width: 650px;
+}
+.center{
+    display: flex;
+    margin-top: 50px;   
+}
+.right{
+    width: 951px;
+    margin-left: 100px;
+}
+.leht{
+    width: 870px;
+    display: flex;
+    justify-content: flex-end;
+}
+.iconstexttovary{
+    display: flex;
+}
+.iconstexttovarymargin{
+    margin-left: 10px;
+}
+.star{
+    margin-top: 50px;
+}
+.texttovary{
+    font-size: 34px;
+    margin-right: 50px;
+}
+.pokupka{
+    display: flex;
+    margin-top: 30px;
+}
+.buttonpokupka{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+.AdditionalInformation{
+    display: flex;
+    margin-top: 20px;
+}
+.AdditionalInformationTextDiv{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.AdditionalInformationText{
+    margin: 0;
+}

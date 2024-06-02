@@ -1,0 +1,84 @@
+.FFFF{
+    background-color: #423E3E;
+}
+.colorbutton{
+    background-color: #AC3D44;
+    width: 190px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 15px;
+}
+.colorbuttons{
+    width: 230px; 
+    border: 4px solid #AC3D44;
+    height: 40px;
+}
+.pokupka{
+    width: 400px;
+    height: 550px;
+    background-color: #423E3E;
+    border-radius: 60px;
+    
+    
+}
+.imgtovary1{
+    height: 300px;
+}
+.gradient{
+    color: rgb(0,0,0);
+    color: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(184,57,68,1) 36%, rgba(234,72,87,1) 47%, rgba(225,115,14,1) 58%, rgba(252,0,0,1) 70%);
+}
+.imgtovary{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535353;
+    border-radius: 60px 60px 0px 0px;
+}
+.texttovary{
+    height: 100px;
+    color: white;
+    /* margin-left: 25px; */
+    margin-top: 10px;
+}
+.texttovary1{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.texttovary2{
+font-size: 24px;
+margin-bottom: 7px;
+margin-left: 25px;
+}
+.iconstexttovary{
+    display: flex;
+    height: 25px;
+    margin-left: 25px;
+}
+.iconstexttovarymargin{
+    margin-left: 7px;
+}
+.buttonpokupka1{
+    width: 200px;
+}
+.buttonpokupka{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokupki{
+height: 300vh;
+}
+.tovary{
+    height: 390vh;
+    background-color: #262525;
+}
+.divpokupka{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
