@@ -1,4 +1,11 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
 .section1{
     
     background-image: url('../photo/wallpapersden.com_cool-red-mountains-4k_1920x1080.jpg'); 
@@ -7,31 +14,25 @@
     background-size: 100% auto;
     height: 99.5vh;
     display: flex;
-    /* width: 1903px; */
+    padding: 0;
 }
 .Logo1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    
     flex-direction: column;
-    width: 951px;
+    
+}
+.logoAndText{
+    display: flex;
+    flex-direction: column;
 }
 .slaydy{
-    height: 1050px;
+    padding: 0;
 }
-.ends{
-    height: 200px;
-    background-color: #423E3E;
-    display: flex;
-}
-.end{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    color: white;
-
+.section1Text{
+    font-size: 20px;
 }
 
 .FFFF{
@@ -43,15 +44,10 @@
     -webkit-text-fill-color: transparent;
 }
 .navbarzac{
-    width: 100vw;
+    width: 101vw;
     top: 0px;
     position: fixed;
     z-index: 20;
-}
-.ends-2{
-display: flex;
-justify-content: space-around;
-color: white;
 }
 .storona{
     width: 951px;
@@ -71,4 +67,16 @@ align-items: center;
 .img{
     border-radius: 100%;
     border: 5px solid #B83944;
+}
+.footer{
+    height: 150px;
+    background-color: #423E3E;
+    display: flex;
+    justify-content: center;
+}
+.FooterTextCenter{
+    text-align: center;
+}
+.footerRight{
+    margin-left: 20px;
 }

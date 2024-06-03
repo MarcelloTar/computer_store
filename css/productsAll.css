@@ -1,6 +1,9 @@
 .FFFF{
     background-color: #423E3E;
 }
+.container-fluid{
+    padding: 0;
+}
 .colorbutton{
     background-color: #AC3D44;
     width: 190px;
