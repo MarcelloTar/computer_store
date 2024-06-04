@@ -63,6 +63,7 @@ margin-left: 25px;
 }
 .iconstexttovarymargin{
     margin-left: 7px;
+    font-size: 19px;
 }
 .buttonpokupka1{
     width: 200px;
@@ -85,9 +86,10 @@ height: 300vh;
     justify-content: space-around;
     margin-top: 50px;
 }
-.hover:hover{
-    width: 230px;
-}   
+.RZTK_Membrana_RGB_USB_Black{
+    width: 400px; 
+    height: 200px;
+}
 .fles{
     display: flex;
     justify-content: center;
@@ -111,3 +113,206 @@ height: 300vh;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.Acer_Aspire_7_A715-76G-56U7{
+    width: 390px;
+}
+.Монітор_238_Asus_VY249HGE{
+    width: 350px; 
+}
+.Logitech_G502{
+    width: 400px; 
+    height: 200px;
+}
+.Dell_Inspiron_3525{
+    width: 400px; 
+    height: 300px;
+}
+.Vinga_KB410{
+    width: 400px; 
+    height: 300px;
+}
+.tovary_adaptation1{
+    display: none;
+}
+.tovary_adaptation2{
+    display: none;
+}
+.button_mb{
+    display: none;
+}
+@media screen and (max-width: 1450px) {
+    .tovary{
+        height: 580vh;
+    }
+    .pokupka{
+        width: 300px;
+        height: 500px;
+        background-color: #423E3E;
+        border-radius: 60px;
+    }
+    .imgtovary{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #535353;
+        border-radius: 60px 60px 0px 0px;
+    }
+    .imgtovary1{
+        height: 250px;
+    }
+    .RZTK_Membrana_RGB_USB_Black{
+        width: 300px;
+    }
+    .Acer_Aspire_7_A715-76G-56U7{
+        width: 300px;
+    }
+    .Монітор_238_Asus_VY249HGE{
+        width: 270px;
+    }
+    .MSI_Optix{
+        width: 280px;
+    }
+    .Logitech_G502{
+        width: 300px;
+    }
+    .Dell_Inspiron_3525{
+        width: 300px;
+    }
+    .Vinga_KB410{
+        width: 300px;
+    }
+    .Lenovo_IdeaPad{
+        width: 290px;
+    }
+    .pokupki{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .tovary{
+        display: none;
+    }
+    .tovary_adaptation1{
+        display: block;
+        height: 680vh;
+        background-color: #262525;
+    }
+}
+@media screen and (max-width:770px) {
+    .tovary_adaptation1{
+        display: none;
+    }
+    .tovary_adaptation2{
+        display: block;
+        height: 1050vh;
+        background-color: #262525;
+    }
+    .divpokupka_end{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:430px) {
+    .divpokupka{
+        display: flex;
+        flex-direction: column;
+    }
+    .tovary_adaptation2{
+        height: 2000vh;
+    }
+    .divpokupka_end{
+        display: flex;
+        justify-content: center;
+    }
+    .pokupki{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .big_text{
+        font-size: 9px;
+    }
+    .Big_text{
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .pokupka{
+        width: 200px;
+        height: 400px;
+        background-color: #423E3E;
+        border-radius: 60px;
+        margin-top: 50px;
+    }
+    .texttovary1{
+        font-size: 16px;
+    }
+    .texttovary2{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    .imgtovary1{
+        height: 195px;
+        width: 190px;
+    }
+    .imgtovary{
+        height: 250px;
+    }
+    .buttonpokupka{
+        display: none;
+    }
+    .button_mb{
+        display: block;
+        /* margin-left: 20px; */
+        margin-right: 15px;
+    }
+    .buttonpokupka1{
+        width: 40px;
+        height: auto;
+    }
+    .text_botton{
+        display: flex;
+        justify-content: space-around;
+    }
+    .iconstexttovarymargin{
+        font-size: 16px;
+    }
+    .divpokupka{
+        margin-top: 0;
+    }
+    .big_text{
+        font-size: 9px;
+    }
+    .Big_text{
+        font-size: 7px;
+    }
+    .discount{
+        margin: 0;
+    }
+    .RZTK_Membrana_RGB_USB_Black{
+        height: 150px;
+    }
+    .Монітор_238_Asus_VY249HGE{
+        height: 180px;
+    }
+    .COBRA_Advanced{
+        height: 185px;
+        width: 185px;
+    }
+    .MSI_Optix{
+        height: 185px;
+        height: 180px;
+    }
+    .Acer_Aspire_7_A715-76G-56U7{
+        height: 180px;
+    }
+    .Dell_Inspiron_3525{
+        height: 170px;
+    }
+    /* .text_mb{
+        display: flex;
+        align-items: center;
+    } */
+} 

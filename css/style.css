@@ -44,7 +44,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .navbarzac{
-    width: 101vw;
+    width: 100vw;
     top: 0px;
     position: fixed;
     z-index: 20;
@@ -79,4 +79,14 @@ align-items: center;
 }
 .footerRight{
     margin-left: 20px;
+    
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.fluids{
+    padding: 0;
 }

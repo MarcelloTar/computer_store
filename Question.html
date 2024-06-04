@@ -9,7 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-  <div class="container">
     <div class="navbarzac">
       <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0;">
       <div class="container-fluid  FFFF">
@@ -55,21 +54,20 @@
     </nav>
     </div>
       <div class="hon">
-        <div class="row">
             <div class="divzapit">
-              <div class="form-floating" style="width: 700px; margin-top: 20px;">
+              <div class="form-floating Question" >
                   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                   <label for="floatingTextarea">ім'я</label>
               </div>
-              <div class="form-floating" style="width: 700px; margin-top: 50px;">
+              <div class="form-floating Question">
                   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                   <label for="floatingTextarea">Телефон</label>
               </div>
-              <div class="form-floating" style="width: 700px; margin-top: 50px;">
+              <div class="form-floating Question BigQues">
                   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                   <label for="floatingTextarea2">Запитання</label>
               </div>
-              <button type="button" class="btn btn-success" id="liveToastBtn" style="width: 400px; margin-top: 50px; height: 50px;">Надіслати</button>
+              <button type="button" class="btn btn-success btnQuestion" id="liveToastBtn" >Надіслати</button>
               
               <div class="toast-container position-fixed bottom-0 end-0 p-3">
                 <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -84,10 +82,8 @@
                 </div>
               </div>
           </div>
-        </div>
          
       </div>
-  </div>
     
     <script>
       const toastTrigger = document.getElementById('liveToastBtn')

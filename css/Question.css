@@ -1,5 +1,5 @@
 .hon{
-    background-image: url('https://images.wallpapersden.com/image/download/cool-red-mountains-4k_bG1mamyUmZqaraWkpJRmbmdlrWZlbWU.jpg'); 
+    background-image: url('../photo/wallpapersden.com_cool-red-mountains-4k_1920x1080.jpg'); 
     background-position: 0 0; 
     background-repeat: no-repeat; 
     background-size: 100% auto;
@@ -12,7 +12,7 @@
     background-color: #423E3E;
 }
 .divzapit{
-    width: 1000px;
+    width: 900px;
     height: 500px;
     background-color: #423E3E;
     display: flex;
@@ -26,4 +26,64 @@
     background: linear-gradient(45deg, #000000, #B83944, #EA4857, #E1730E, #FC0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.Question{
+    width: 700px; 
+    margin-top: 20px; 
+}
+.btnQuestion{
+    width: 400px; 
+    margin-top: 50px; 
+    height: 50px;
+}
+@media screen and (max-width: 1030px){
+    .hon{
+        height: 70vh;
+    }
+    .divzapit{
+        width: 750px;
+        height: 450px;
+    }
+    .Question{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .divzapit{
+        width: 650px;
+
+    }
+}
+@media screen and (max-width:770px) {
+    .hon{
+        height: 65vh;
+    }
+    .divzapit{
+        height: 400px;
+    }
+    .btnQuestion{
+        margin-top: 25px
+    }
+    .Question{
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}
+@media screen and (max-width: 430px) {
+    .divzapit{
+        width: 380px;
+        height: 250px;
+        border-radius: 80px;
+    }
+    .Question{
+        width: 250px;
+    }
+    .BigQues{
+        /* display: none; */
+    }
+    .btnQuestion{
+        width: 230px;
+        height: 35px;
+    }
 }
