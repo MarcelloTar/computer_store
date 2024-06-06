@@ -12,8 +12,8 @@
     background-color: #423E3E;
 }
 .divzapit{
-    width: 900px;
-    height: 500px;
+    width: 800px;
+    height: 450px;
     background-color: #423E3E;
     display: flex;
     flex-direction: column;
@@ -41,11 +41,27 @@
         height: 70vh;
     }
     .divzapit{
-        width: 750px;
-        height: 450px;
+        width: 600px;
+        height: 350px; 
+        border-radius: 50px;
     }
     .Question{
-        width: 500px;
+        width: 450px;
+        height: 150px !important;
+    }
+    .btnQuestion{
+        margin-top: 10px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .Zopit{
+        height: 25px !important;
+    }
+    .write{
+        margin-top: 10px;
+    }
+    .write1{
+       margin-top: 15px; 
     }
 }
 @media screen and (max-width: 950px) {
@@ -59,13 +75,16 @@
         height: 65vh;
     }
     .divzapit{
-        height: 400px;
+        height: 300px;
+        width: 500px;
     }
     .btnQuestion{
-        margin-top: 25px
+        margin-top: 15px
     }
     .Question{
+        width: 370px;
     }
+
 }
 @media screen and (max-width: 650px) {
     
@@ -85,5 +104,15 @@
     .btnQuestion{
         width: 230px;
         height: 35px;
+    }
+    /* .hon{
+        height: 30vh;
+    } */
+    /* .hon{
+        display: flex;
+        align-items: flex-start;
+    } */
+    .hon{
+    height: 40vh;
     }
 }

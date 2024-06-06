@@ -26,6 +26,9 @@
     
     
 }
+.divpokupka-pop{
+    padding-top: 2px;
+}
 .imgtovary1{
     height: 300px;
 }
@@ -163,6 +166,7 @@ height: 300vh;
     }
     .RZTK_Membrana_RGB_USB_Black{
         width: 300px;
+        height: 200px;
     }
     .Acer_Aspire_7_A715-76G-56U7{
         width: 300px;
@@ -198,6 +202,15 @@ height: 300vh;
         height: 680vh;
         background-color: #262525;
     }
+    .tovary_adaptation1_big_text{
+        font-size: 17px;
+    }
+    .tovary_adaptation1_big_text_logitech{
+        font-size:  15px;
+    }
+    .tovary_adaptation1_big_text_logitech_small{
+        font-size: 13px;
+    }
 }
 @media screen and (max-width:770px) {
     .tovary_adaptation1{
@@ -213,14 +226,28 @@ height: 300vh;
         justify-content: center;
         margin-top: 20px;
     }
+    .big_text{
+        font-size: 10px;
+    }
+    .small_text{
+        font-size: 15px;
+    }
+    .big_text1{
+        font-size: 8px;
+    }
+    .big_small_text{
+        font-size: 14px;
+    }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:550px) {
     .divpokupka{
         display: flex;
         flex-direction: column;
+        margin: 0;
     }
     .tovary_adaptation2{
         height: 2000vh;
+        /* height: max-content; */
     }
     .divpokupka_end{
         display: flex;
@@ -237,14 +264,21 @@ height: 300vh;
     .Big_text{
         font-size: 7px;
     }
+    .pokupka{
+        margin-top: 50px;
+
+    }
 }
 @media screen and (max-width: 350px) {
+    .tovary_adaptation2{
+        height: 1650vh;
+    }
     .pokupka{
         width: 200px;
         height: 400px;
         background-color: #423E3E;
         border-radius: 60px;
-        margin-top: 50px;
+        margin-top: 25px;
     }
     .texttovary1{
         font-size: 16px;
@@ -299,7 +333,7 @@ height: 300vh;
     }
     .COBRA_Advanced{
         height: 185px;
-        width: 185px;
+        width: 165px;
     }
     .MSI_Optix{
         height: 185px;
@@ -315,4 +349,10 @@ height: 300vh;
         display: flex;
         align-items: center;
     } */
+    .discounts{
+        width: 40%;
+    }
+    .discounts2{
+        width: 35%;
+    }
 } 

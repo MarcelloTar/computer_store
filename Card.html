@@ -57,8 +57,10 @@
     <div class="kartochka">
         <div class="kreditnakarna1">
             <div class="kreditnakarna1one">
-                <img src="photo/image-removebg-preview картка.png" alt="" style="width: 100px;">
-                <h1 style="color: white;"><b>Банківська карта</b></h1>
+                <img src="photo/image-removebg-preview картка.png" alt="" class="kreditnakarna1one-img">
+                <div class="kreditnakarna1one-text">
+                  <h1 class="bank_card" style="color: white;"><b>Банківська карта</b></h1>
+                </div>
             </div>
             <div class="kreditnakarna1two">
                 <img src="photo/image-removebg-preview visa.png" alt="" style="width: 100px; height: 100px;">
@@ -66,31 +68,31 @@
             </div>
         </div>
         <div class="nomerkartky">
-            <div class="mb-3" style="width: 950px;">
+            <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label" style="color: white;">Номер карточки</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                <input type="number" min="1000000000000000" max="9999999999999999" class="form-control number_card" id="formGroupExampleInput" placeholder="" onkeyup="if(parseInt(this.value)>9999999999999999){ this.value =9999999999999999; return false; }">
             </div>
         </div>
         <div class="kreditnakarna2 nomerkartky">
             <div class="row">
                 <div class="col">
                     <label for="formGroupExampleInput" class="form-label" style="color: white;">Термін придатності</label>
-                    <input type="text" class="form-control" placeholder="" aria-label="First name" style="width: 450px; margin-right: 15px;">
+                    <input type="text" class="form-control card_text" placeholder="" aria-label="First name" >
                 </div>
                 <div class="col" >
                     <label for="formGroupExampleInput" class="form-label" style="margin-left: 15px; color: white; ">CVC/CVV</label>
-                    <input type="text" class="form-control" placeholder="" aria-label="Last name" style="width: 450px; margin-left: 15px;">
+                    <input type="number" min="100" max="999" class="form-control card_text" placeholder="" aria-label="Last name" onkeyup="if(parseInt(this.value)>999){ this.value =999; return false; }">
                 </div>
             </div>
         </div>
         <div class="kreditnakarna3" style="margin-top: 15px;">
-            <div class="mb-3" style="width: 950px;">
+            <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label" style="color: white;">Ім'я та прізвище</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                <input type="text" class="form-control name_and_surname" id="formGroupExampleInput" placeholder="">
             </div>
         </div>
         <div class="buttonkarta">
-            <button type="button" class="btn btn-light" id="liveToastBtn" style="width: 600px;">підтревдити</button>
+            <button type="button" class="btn btn-light button" id="liveToastBtn">підтревдити</button>
             <div class="toast-container position-fixed bottom-0 end-0 p-3">
               <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header">

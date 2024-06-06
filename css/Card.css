@@ -1,5 +1,5 @@
 .fon{
-    background-image: url('https://images.wallpapersden.com/image/download/cool-red-mountains-4k_bG1mamyUmZqaraWkpJRmbmdlrWZlbWU.jpg'); 
+    background-image: url(../photo/wallpapersden.com_cool-red-mountains-4k_1920x1080.jpg); 
     background-position: 0 0; 
     background-repeat: no-repeat; 
     background-size: 100% auto;
@@ -30,7 +30,7 @@
 }
 .nomerkartky{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .kreditnakarna3{
     display: flex;
@@ -45,4 +45,101 @@
     background: linear-gradient(45deg, #000000, #B83944, #EA4857, #E1730E, #FC0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.card_text{
+    width: 450px; 
+    margin-right: 15px;
+}
+.button{
+    width: 600px;
+}
+.number_card{
+    width: 950px;
+}
+.name_and_surname{
+    width: 950px;
+}
+.kreditnakarna1one-text{
+    display: flex;
+    align-items: center;
+}
+.kreditnakarna1one-img{
+    width: 100px;
+}
+    
+
+@media screen and (max-width:1030px) {
+    .kartochka{
+        width: 750px;
+        height: 450px;
+        background-color: #423E3E;
+    }
+    .card_text{
+        width: 300px;
+    }
+    .number_card{
+        width: 650px;
+    }
+    .name_and_surname{
+        width: 650px;
+    }
+    .button{
+        width: 500px;
+    }
+    .bank_card{
+        font-size: 33px;
+
+    }
+    .kreditnakarna1one-img{
+        width: 75px;
+        height: 100px;
+    }
+   
+}
+@media screen and (max-width: 770px) {
+    .kartochka{
+        width: 600px;
+        height: 400px;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .fon{
+       display: flex;
+       height: 60vh;
+    }
+    .card_text{
+        width: 250px;
+    }
+    .number_card{
+        width: 548px;
+    }
+    .name_and_surname{
+        width: 548px;
+    }
+    .button{
+        width: 400px;
+
+    }
+    .bank_card{
+        font-size: 20px;
+    }
+    .kreditnakarna1one-img{
+        width: 50px;
+        height: 75px;
+    }
+    .kreditnakarna1one{
+        width: 250px;
+    }
+    .kreditnakarna1two{
+        width: 250px;
+    }
+    .kreditnakarna1{
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        /* flex-direction: column; */
+    }
+    .buttonkarta{
+        margin-top: 15px;
+    }
 }

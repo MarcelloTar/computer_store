@@ -27,19 +27,23 @@ body{
 .logoAndText{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 .slaydy{
     padding: 0;
 }
 .section1Text{
-    font-size: 20px;
+    font-size: 25px;
+    width: 50%;
 }
 
 .FFFF{
     background-color: #423E3E;
 }
 .gradient{
-    background: linear-gradient(45deg, #000000, #B83944, #EA4857, #E1730E, #FC0000);
+    background: linear-gradient(45deg, #000000, #b83944, #EA4857, #E1730E, #FC0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -76,6 +80,7 @@ align-items: center;
 }
 .FooterTextCenter{
     text-align: center;
+    color:rgb(255, 255, 255);
 }
 .footerRight{
     margin-left: 20px;
@@ -89,4 +94,105 @@ align-items: center;
 }
 .fluids{
     padding: 0;
+}
+
+@media screen and (max-width: 1030px) {
+    .section1{
+        height: 85vh;
+    }
+    .section1Text{
+        width: 80%;
+    }
+}
+@media screen and (max-width:950px) {
+    .section1{
+        height: 79vh;
+    }
+
+}
+@media screen and (max-width: 770px) {
+    .section1Text{
+        font-size: 20px;
+        width: 80%;
+    }
+    .section1{
+        height: 64vh;
+    }
+    .FooterTextCenter{
+        font-size: 20px
+    }
+}
+@media screen and (max-width:650px) {
+    .section1{
+        height: 54vh;
+    }
+}
+@media screen and (max-width: 550px) {
+    .section1{
+        height: 46vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .section1Text{
+        font-size: 16px;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:430px) {
+    .section1Text{
+        font-size: 13px;
+        width: 100%;
+    }
+    .section1{
+        height: 35vh;
+    }
+    .FooterTextCenter{
+        font-size: 16px;
+    }
+    .footer{
+        height: 100px;
+    }
+    .gradient{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:380px) {
+    .section1{
+        height: 30vh;
+        display: flex;
+        /* width: 100%; */
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .gradient{
+        font-size: 16px;
+        margin: 0;
+
+    }
+    .section1Text{
+        font-size: 10px;
+    }
+    .FooterTextCenter{
+        font-size: 12px;
+    }
+    .footer{
+        height: 75px;
+    }
+
+}
+@media screen and (max-width:350px) {
+    .section1{
+        height: 26vh;
+    }
+    .gradient{
+        font-size: 14px;
+    }
+    .navbarzac{
+        width: 100vw;
+        top: 0px;
+        position: fixed;
+        z-index: 20;
+    }
 }
