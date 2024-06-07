@@ -143,3 +143,46 @@
         margin-top: 15px;
     }
 }
+@media screen and (max-width: 430px) {
+    .kartochka{
+        width: 400px;
+        height: 400px;
+    }
+    /* .kreditnakarna1one{
+        width: 150px;
+    } */
+    .col{
+        width: 170px;
+    }
+    /* .kreditnakarna1two{
+        width: 150px !important;
+    } */
+    .card_text{
+        width: 150px;
+    }
+    .number_card{
+        width: 300px;
+    }
+    .name_and_surname{
+        width: 300px;
+    }
+    .button{
+        width: 250px;
+    }
+    .fon{
+      background-size: cover;
+      height: 65vh;
+    }
+}
+@media screen and (max-width: 380px) {
+    .kartochka{
+        width: 350px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .kartochka{
+        width: 320px;
+        height: 400px;
+    }
+}
