@@ -92,7 +92,7 @@
 @media screen and (max-width: 430px) {
     .divzapit{
         width: 380px;
-        height: 250px;
+        height: 270px;
         border-radius: 80px;
     }
     .Question{
@@ -105,14 +105,22 @@
         width: 230px;
         height: 35px;
     }
-    /* .hon{
-        height: 30vh;
-    } */
-    /* .hon{
-        display: flex;
-        align-items: flex-start;
-    } */
     .hon{
-    height: 40vh;
+    height: 50vh;
+    background-size: cover;
+    }
+}
+@media screen and (max-width: 380px) {
+    .divzapit{
+        width: 360px;
+        height: 270px;
+        border-radius: 80px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .divzapit{
+        width: 350px;
+        height: 270px;
+        border-radius: 80px;
     }
 }
