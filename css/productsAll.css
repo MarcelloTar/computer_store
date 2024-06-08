@@ -242,7 +242,7 @@ height: 300vh;
 @media screen and (max-width:550px) {
     .divpokupka{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         margin: 0;
     }
     .tovary_adaptation2{
@@ -255,7 +255,7 @@ height: 300vh;
     }
     .pokupki{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
     }
     .big_text{
