@@ -105,7 +105,7 @@
     }
     .fon{
        display: flex;
-       height: 60vh;
+       height: 100vh;
     }
     .card_text{
         width: 250px;
