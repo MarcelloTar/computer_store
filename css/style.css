@@ -95,7 +95,12 @@ align-items: center;
 .fluids{
     padding: 0;
 }
-
+@media screen and (max-width: 1440px){
+    .section1{
+        background-size: cover;
+    }
+    
+}
 @media screen and (max-width: 1030px) {
     .section1{
         height: 85vh;
