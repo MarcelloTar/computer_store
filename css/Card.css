@@ -111,7 +111,7 @@
     }
     .fon{
        display: flex;
-       height: 60vh;
+       height: 100vh;
     }
     .card_text{
         width: 250px;
@@ -177,7 +177,7 @@
     }
     .fon{
       background-size: cover;
-      height: 65vh;
+      height: 100vh;
     }
 }
 @media screen and (max-width: 380px) {
