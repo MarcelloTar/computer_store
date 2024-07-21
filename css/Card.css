@@ -180,7 +180,7 @@
       height: 100vh;
     }
     .number_card{
-        font-size: 13px;
+        font-size: 11px;
     }
 }
 @media screen and (max-width: 380px) {
