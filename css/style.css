@@ -151,7 +151,8 @@ align-items: center;
         width: 100%;
     }
     .section1{
-        height:40vh;
+        height:90vh;
+       background-position: top;
     }
     .FooterTextCenter{
         font-size: 16px;
@@ -161,6 +162,9 @@ align-items: center;
     }
     .gradient{
         font-size: 20px;
+    }
+    .img_slaydy{
+        height: 90vh;
     }
 }
 @media screen and (max-width:380px) {

@@ -246,12 +246,14 @@ height: 300vh;
         margin: 0;
     }
     .tovary_adaptation2{
-        height: 2000vh;
+        height: 1500vh;
         /* height: max-content; */
     }
     .divpokupka_end{
         display: flex;
         justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .pokupki{
         display: flex;
@@ -267,6 +269,10 @@ height: 300vh;
     .pokupka{
         margin-top: 50px;
 
+    }
+    .center_pokupka{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media screen and (max-width: 350px) {
