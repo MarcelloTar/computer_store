@@ -179,8 +179,8 @@
       background-size: cover;
       height: 100vh;
     }
-    .number_card{
-        font-size: 11px;
+    .Expiration_date{
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 380px) {
