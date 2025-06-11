@@ -1,1 +1,1 @@
-# computer_store
+![foto page](/photo/readme/computerStore)
