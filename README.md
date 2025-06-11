@@ -1,1 +1,1 @@
-![foto page](/photo/readme/computerStore)
+![foto page](/img/readme/computerStore)
